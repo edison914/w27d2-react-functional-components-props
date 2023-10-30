@@ -15,7 +15,7 @@ function App() {
     speed: 45,
   };
 
-  const handleClick = () => {
+  function handleClick () {
     alert(
       `Special Stats\n\tSpecial Attack: ${baseStats.spAttack}\n\tSpecial Defense: ${baseStats.spDef}`
     );

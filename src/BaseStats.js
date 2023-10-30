@@ -2,7 +2,6 @@ import "./BaseStats.css"
 
 function BaseStats(props) {
     const { hp, attack, defense, spAttack, spDef, speed } = props.stats;
-    const { clicker } = props.clicker
     return (
         <div className="base-stats">
             <h1>BaseStats</h1>
