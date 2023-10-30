@@ -6,7 +6,7 @@ function BaseStats(props) {
     return (
         <div className="base-stats">
             <h1>BaseStats</h1>
-            <button className="sp-stats" onClick={clicker}>Check Special Stats</button>
+            <button className="sp-stats" onClick={props.clicker}>Check Special Stats</button>
             <table>
                 <tbody>
                     <tr>
